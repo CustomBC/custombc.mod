@@ -1,0 +1,444 @@
+<!DOCTYPE HTML>
+<!-- Сайт мода CustomBC. Мод основан на игре BuilderCraft. Создатель сайта: Konnivalys. 12.07.2023. Дизайн взяты с сайта buildercraft.ru. Создатель: AlexanderGlushenko -->
+<html>
+    <head>
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>CustomBC</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/dashboard_elements.css" type="text/css"/>
+        <link rel="stylesheet" href="css/site.css" type="text/css"/>
+        <script src="/buildercraft/_crown/js/ajax.js"></script>
+        <script src="/buildercraft/_crown/js/core.js"></script>
+        <script>
+            if (document.location.host.includes("www.")) {
+                document.location.host = document.location.host.replace(/www./g, "");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div style='min-height: 100vh;'>
+                <div class='start_screen'>
+                    <div id='header_box_back' class='header_box_back'></div>
+                    <div id='header_box' class='header_box'>
+                        <a class='logo_text' href='/'>CUSTOMBC</a>
+                        <form action="https://vk.com/custombc_mod" target="_blank">
+                            <button>Наша группа-ВК</button>
+                            <a class='header_button' href='?section=news'>Новости</a>
+                        <a class='header_button' href='?section=play'>Играть</a>
+                    </div>
+                    <script>
+                        /*window.onload = function () {
+	BackdropFilter.Create(document.documentElement.outerHTML, document.getElementById("header_box_back"), "header_box", "blur(25px)", true);
+	SyncHeaderHeight();
+}
+
+window.addEventListener("resize", function(event) {
+	SyncHeaderHeight();
+}, true);
+
+function SyncHeaderHeight()
+{
+	var header = document.getElementById("header_box");
+	var header_back = document.getElementById("header_box_back");
+	
+	if(header != null && header_back != null)
+	{
+		header_back.style.height = window.getComputedStyle(header).height;
+	}
+}*/
+                    </script>
+                    <div class='logo'></div>
+                </div>
+                <div class='screen_container'>
+                    <div class='screen_back'></div>
+                    <div class='screen_overlay'>
+                        <div>
+                            <div class='download_form'>
+                                <div class='panel'>
+                                    <div class='platform windows'></div>
+                                    <div class='title'>Скачать CustomBC с сайта (Быстрая и удобная загрузка)</div>
+                                    <div class='description'>
+                                        Системные требования:
+                                        Windows: 7, 8, 8.1, 10<br/>
+                                        ЦП: 1.8 ГГц / 2 ядра (Intel/AMD)<br/>
+                                        ОЗУ: 2 Гб / 1 Ггц<br/>
+                                        Видео: 1 Гб (AMD/nVidia)<br/>
+                                        Диск: 1 Гб<br/>
+                                        Версия мода: 0.3 Beta
+                                    </div>
+                                    <div class='space'></div>
+                                    <a class='button fore3 back1' href='https://github.com/CustomBC/custombc.github.io/releases/download/CustomBC.0.3.Beta.Setup.exe/CustomBC.0.3.Beta.Setup.exe' download target='_blank' onclick='yaCounter45767181.reachGoal("Download");'>Скачать</a>
+                                </div>
+                                <div class='panel'>
+                                    <div class='platform android'></div>
+                                    <div class='title'>Скачать CustomBC через MediaFire</div>
+                                    <div class='description'>
+                                        Системные требования:
+                                        Windows: 7, 8, 8.1, 10<br/>
+                                        ЦП: 1.8 ГГц / 2 ядра (Intel/AMD)<br/>
+                                        ОЗУ: 2 Гб / 1 Ггц<br/>
+                                        Видео: 1 Гб (AMD/nVidia)<br/>
+                                        Диск: 1 Гб<br/>
+                                        Версия мода: 0.3 Beta
+                                        <br/>
+                                        <br/>
+                                    </div>
+                                    <div class='space'></div>
+                                    <a class='button fore3 back2' href='https://www.mediafire.com/file/rune0nb3fdyhmnw/CustomBC_0.3_Beta_Setup.exe/file' download target='_blank' onclick='yaCounter45767181.reachGoal("Download");'>Скачать</a>
+                                </div>
+                                <div class='panel'>
+                                    <div class='platform web'></div>
+                                    <div class='title'>Скачать CustomBC через Яндекс.Диск</div>
+                                    <div class='description'>
+                                        Системные требования:
+                                        Windows: 7, 8, 8.1, 10<br/>
+                                        ЦП: 1.8 ГГц / 2 ядра (Intel/AMD)<br/>
+                                        ОЗУ: 2 Гб / 1 Ггц<br/>
+                                        Видео: 1 Гб (AMD/nVidia)<br/>
+                                        Диск: 1 Гб<br/>
+                                        Версия мода: 0.3 Beta<br/>
+                                    </div>
+                                    <div class='space'></div>
+                                    <a class='button fore3 yandexdisk_button' href='https://disk.yandex.ru/d/g5Ac5sLbgJ7btQ' target='_blank'>Скачать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title_text header_underline">Новости</div>
+                        <div class="divider"></div>
+                        <!--
+<div class='padding'>
+	<table style='width: 100%;'>
+		<tr>
+			<td class='padding'>1</td>
+			<td class='padding'>1</td>
+		</tr>
+	</table>
+</div>
+-->
+                        <div class='padding'>
+                            <b>12.07.2023</b>
+                            <div class='space'></div>
+                            <br>Наконец-то был обновлён сайт мода CustomBC. Дизайн и т.п мало чем может порадовать, зато вы сможете по подробнее узнавать об обновлениях, удобнее скачивать. Сайт будет со временем улучшаться и приобретать свои новые краски.</br>
+                            <div></div>
+                            <img src='img/Site.jpg' class='post_image'/>
+                            </a>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>Как скачать мод?</b>
+                            <div class='padding'>
+                                <img src="img/HowToDownload.jpg" class="post_image">
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Шаг 1</div>
+                                    Зайдите на наш сайт и вверху страницы будет 3 ссылки для скачивания, выберите вами удобный способ скачивание и приступайте
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Шаг 2</div>
+                                    После скачивания, откройте установщик
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ff0000;'>Внимание!</div>
+                                    Если вас остановил антивирус, просто игнорируйте его и загружайте мод дальше
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Шаг 3</div>
+                                    Когда зайдёте в установщик, согласитесь со всеми условиями, выберите место расположения куда вы загрузите ваш мод, создавать ли ярлык на рабочем столе и т.д
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #2d7d29;'>Завершение</div>
+                                    Когда вы всё сделали, можно начинать играть
+                                </div>
+                            </div>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>СustomBC 0.3 Beta (07.07.2023)</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #e84c3d;'>Блоки</div>
+                                    Изменён блок текстуры: "Камень"
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #6f4e37;'>Техническая часть</div>
+                                    Добавлена новая поверхность "Асфальт"
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #2d7d29;'>Fix (Mod)</div>
+                                    Исправлен баг который при сохранения или выходе с карты, игрока выбрасывало на рабочий стол
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Fix</div>
+                                    Исправлен баг который позволял вылетать игроку за карту при включённом полёте
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Прочие изменения
+                                </div>
+                            </div>
+                                <img src='img/CustomBC 0.3 Beta.jpg' class='post_image'/>
+                            </a>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>CustomBC 0.2 Beta (06.07.2023)</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #11abf3;'>Интерфейс</div>
+                                    Обновлён игровой интерфейс в меню паузы и меню создания мира
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ff0000;'>Удаление</div>
+                                    Убрана статистика из меню паузы
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    Полёт и бег отсоединены от магазина, соответственно они теперь бесплатны. Пока что только полёт и бег!
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    Добавлена кнопка в главном меню и меню паузы "Выйти из игры"
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    Текст в табличках увеличен до 200 символов
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ff006a;'>Звуки</div>
+                                    Изменён звук лестницы
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ff006a;'>Звуки</div>
+                                    Изменена 3 окружающая музыка на "Rubix_Cube"
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Прочие изменения
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Fix</div>
+                                    Устранён баг "Захват" который позволял выгонять игроков, при этом находясь на чужой карте
+                                </div>
+                            </div>
+                            <img src="img/CustomBC 0.2 Beta.jpg" class="post_image"/>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>(06.07.2021) В связи с жёстким багом мультиплеера. Версия CustomBC 0.1.1 Beta закрывается и была удалена! Постараюсь за место этого как можно быстрее выкатить новую 0.2 Beta</b>
+                                <img src='img/CustomBC 0.1.1 Beta Closed.jpg' class='post_image'/>
+                            </a>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>CustomBC 0.1 Beta (17.06.2023)</b>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #11abf3;'>Интерфейс</div>
+                                Обновлён игровой интерфейс в главном меню и меню создания мира
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #e84c3d;'>Блоки</div>
+                                Изменена текстура блока "Лава"
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                Изменены картинки
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #ff006a;'>Звуки</div>
+                                Изменен звук визга шин
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #ff006a;'>Звуки</div>
+                                Изменен звук подъема по лестнице
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #ff006a;'>Звуки</div>
+                                Изменены звуки взаимодействия с водой
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #ff006a;'>Звуки</div>
+                                Изменены звуки активации и подрыва бомб
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #ff006a;'>Звуки</div>
+                                Изменена вся музыка в главном меню и музыка во время игры
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #2dcc70;'>Онлайн</div>
+                                Уменьшен лимит количества игроков на одной карте до 20
+                            </div>
+                            <div class='change_log_line'>
+                                <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                Прочие изменения
+                            </div>
+                        </div>
+                            <img src='img/CustomBC 0.1 Beta.jpg' class='post_image'/>
+                        </a>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>17.06.2023</b>
+                            <div class='space'></div>
+                            <div>В разработке</div>
+                            <img src='img/InDev.jpg' class='post_image'>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>BuilderCraft 2.3.7 Mod by: Konnivalys 3.0 (13.03.2023)</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #e84c3d;'>Блоки</div>
+                                    Новый блок: "Блок без текстуры"
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #6f4e37;'>Техническая часть</div>
+                                    Увеличено количество сидов (от -1000000000 до 1000000000)
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #6f4e37;'>Техническая часть</div>
+                                    Новые размеры создания мира (32x32, 1024x1024)
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    Теперь вместо отчётах о багах будут списки нововведений
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    Теперь можно делать названия карт до 100 символов
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #2d7d29;'>Fix (Mod)</div>
+                                    Исправлен ползунок лимита игроков
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #2dcc70;'>Онлайн</div>
+                                    Теперь можно создавать карты до 250 игроков
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Изменён игровой текст
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Прочие изменения
+                                </div>
+                            </div>
+                            <div class='divider'></div>
+                            <div class='padding'>
+                            <b>BuilderCraft 2.3.7 Mod by: Konnivalys 2.0 (14.01.2023)</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #11abf3;'>Интерфейс</div>
+                                    Изменён инвентарь
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #6f4e37;'>Техническая часть</div>
+                                    Новый тип ландшафта: "Открытое море"
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #3598db;'>Предметы</div>
+                                    Добавлены оружия
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    Теперь быстрый бег увеличивает скорость в 5 раз
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #2dcc70;'>Онлайн</div>
+                                    Создание карт больше 10 игроков (Макс. 200)
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Изменён иконка редактора с шестерёнки на карандаш
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Изменён игровой текст
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Прочие изменения
+                                </div>
+                            </div>
+                            <div class='divider'></div>
+                            <div class='padding'>
+                            <b>BuilderCraft 2.3.7 Mod by: Konnivalys(20.12.2022)</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ff0000;'>Удаление</div>
+                                    Убрано ограничение на выделение блоков в редакторе
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    Можно выставлять больше 60 FPS до 540 FPS
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    Увеличен радиус взаимодействиями блоками вокруг себя до 50 блоков
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    В табличке теперь можно писать до 100 символов
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Улучшение</div>
+                                    В нике можно писать до 100 символов
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Fix</div>
+                                    Исправлена орфографические ошибки такие как: "Слекло"
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Изменён некоторый игровой текст
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ffcc00;'>Разное</div>
+                                    Анти кика, обход запрет на строительство, запрет на читы (Полёт и бег) и запрет на бомбы там нет! Так что не радуйтесь особо
+                                </div>
+                            </div>
+                            <div class="footer_big">
+                                <a class="footer_text" href="/">CustomBC © 2023</a>
+                            </div>
+                    <!-- Yandex.Metrika counter -->
+                    <script type="text/javascript">
+                        (function(d, w, c) {
+                            (w[c] = w[c] || []).push(function() {
+                                try {
+                                    w.yaCounter45767181 = new Ya.Metrika({
+                                        id: 45767181,
+                                        clickmap: true,
+                                        trackLinks: true,
+                                        accurateTrackBounce: true,
+                                        webvisor: true
+                                    });
+                                } catch (e) {}
+                            });
+                            var n = d.getElementsByTagName("script")[0]
+                              , s = d.createElement("script")
+                              , f = function() {
+                                n.parentNode.insertBefore(s, n);
+                            };
+                            s.type = "text/javascript";
+                            s.async = true;
+                            s.src = "https://mc.yandex.ru/metrika/watch.js";
+                            if (w.opera == "[object Opera]") {
+                                d.addEventListener("DOMContentLoaded", f, false);
+                            } else {
+                                f();
+                            }
+                        }
+                        )(document, window, "yandex_metrika_callbacks");
+                    </script>
+                    <noscript>
+                        <div>
+                            <img src="https://mc.yandex.ru/watch/45767181" style="position:absolute; left:-9999px;" alt=""/>
+                        </div>
+                    </noscript>
+                    <!-- /Yandex.Metrika counter -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
