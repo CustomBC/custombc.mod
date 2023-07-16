@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<!-- Сайт мода CustomBC. Мод основан на игре BuilderCraft. Создатель сайта: Konnivalys. 12.07.2023. Дизайн взяты с сайта buildercraft.ru. Создатель: AlexanderGlushenko -->
+<html>
+    <head>
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <head>
+            <link rel="icon" href="CustomBCIco.ico" type="image/x-icon">
+        </head>
+        <title>CustomBC</title>
+        <link rel="stylesheet" href="maincss/style.css" type="text/css"/>
+        <link rel="stylesheet" href="maincss/dashboard_elements.css" type="text/css"/>
+        <link rel="stylesheet" href="maincss/site.css" type="text/css"/>
+        <script src="/buildercraft/_crown/js/ajax.js"></script>
+        <script src="/buildercraft/_crown/js/core.js"></script>
+        <script>
+            if (document.location.host.includes("www.")) {
+                document.location.host = document.location.host.replace(/www./g, "");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div style='min-height: 100vh;'>
+                <div class='start_screen'>
+                    <div id='header_box_back' class='header_box_back'></div>
+                    <div id='header_box' class='header_box'>
+                        <a class='logo_text' href='/'>CUSTOMBC</a>
+                        <a class='header_button' href="index.html">Назад</a>
+                        <a class='header_button' href='https://vk.com/custombc_mod'>Наша группа-ВК</a>
+                        <a class='header_button' href='https://www.youtube.com/@CustomBCmod'>Ютуб-канал мода</a>
+                    </div>
+                    <script>
+                        window.onload = function () {
+	BackdropFilter.Create(document.documentElement.outerHTML, document.getElementById("header_box_back"), "header_box", "blur(25px)", true);
+	SyncHeaderHeight();
+}
+
+window.addEventListener("resize", function(event) {
+	SyncHeaderHeight();
+}, true);
+
+function SyncHeaderHeight()
+{
+	var header = document.getElementById("header_box");
+	var header_back = document.getElementById("header_box_back");
+	
+	if(header != null && header_back != null)
+	{
+		header_back.style.height = window.getComputedStyle(header).height;
+	}
+}
+                    </script>
+                    <div class='logo'></div>
+                </div>
+                <div class='screen_container'>
+                    <div class='screen_back'></div>
+                    <div class='screen_overlay'>
+                        <div>
+                        <div class="title_text header_underline">Новости</div>
+                        <div class="divider"></div>
+                        <!--
+<div class='padding'>
+	<table style='width: 100%;'>
+		<tr>
+			<td class='padding'>1</td>
+			<td class='padding'>1</td>
+		</tr>
+	</table>
+</div>
+-->
+                
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>Как скачать мод?</b>
+                            <div class='padding'>
+                                <img src="img/HowToDownload.jpg" class="post_image">
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Шаг 1</div>
+                                    Зайдите на наш сайт и вверху страницы будет 3 ссылки для скачивания, выберите вами удобный способ скачивания и приступайте
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Шаг 2</div>
+                                    После скачивания, откройте установщик
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #ff0000;'>Внимание!</div>
+                                    Если вас остановил антивирус, просто игнорируйте его и загружайте мод дальше
+                                </div>
+                                <img src="img/Antivirus.jpg" class="post_image">
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Шаг 3</div>
+                                    Когда зайдёте в установщик, согласитесь со всеми условиями, выберите место расположения куда вы загрузите ваш мод, создавать ли ярлык на рабочем столе и т.д
+                                </div>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #2d7d29;'>Завершение</div>
+                                    Когда вы всё сделали, можно начинать играть
+                                </div>
+                            </div>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>Можно ли поиграть в этот мод в браузере?</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Ответ</div>
+                                    В данный момент это невозможно
+                                </div>
+                            </div>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>Я боюсь скачивать мод, а вдруг там вирусы?</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Ответ</div>
+                                    Нам нет умысла причинять вашим устройствам вред. Тем более при скачивании ванильного билда вас также остановит анти-вирус. Так что по факту CustomBC это точно такой-же билд, только с изменённым кодом.
+                                </div>
+                            </div>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>А в вашем моде есть бесплатные предметы?</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Ответ</div>
+                                    С версии 1.0, все предметы игры бесплатные.
+                                </div>
+                            </div>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>С какой целью создан этот мод?</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Ответ</div>
+                                    Мод создан с целью дать игре вторую жизнь, поднять онлайн и снова радовать игроков обновлениями, хоть и неофициальными.
+                                </div>
+                            </div>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>А в него можно играть со своего аккаунта?</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Ответ</div>
+                                    Да, главное чтобы вы помнили логин и пароль. Ну а если у вас аккаунт привязан к ВК, то можете вообще не переживать.
+                                </div>
+                            </div>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>А в этом моде есть читы?</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Ответ</div>
+                                    Нет, в этом моде нет никаких читов!
+                                </div>
+                            </div>
+                        </div>
+                        <div class='divider'></div>
+                        <div class='padding'>
+                            <b>А как вы делаете моды?</b>
+                            <div class='padding'>
+                                <div class='change_log_line'>
+                                    <div class='change_log_category' style='background-color: #f39c11;'>Ответ</div>
+                                    Не можем сказать, ибо если мы это скажем. То в игре будет хаос.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
