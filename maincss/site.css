@@ -322,6 +322,10 @@ body{
     background-color: #5785b9;
 }
 
+.default_button:hover{
+    background-color: #929c00;
+}
+
 /**/
 
 .download_form{
@@ -377,6 +381,10 @@ body{
 
 .download_form .windows{
     background-image: url(../img/download.jpg);
+}
+
+.download_form .launcher{
+    background-image: url(../img/CustomBCIco.png);
 }
 
 .download_form .news{
