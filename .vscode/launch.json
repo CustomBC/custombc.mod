@@ -4,6 +4,7 @@
     // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
 
     
 
@@ -11,7 +12,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\CustomBC Github Site\\custombc.mod\\index.html"
+            "file": "c:\\Документы\\Github\\custombc.mod\\index.html"
         }
     ]
 }
