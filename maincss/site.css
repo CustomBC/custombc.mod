@@ -391,6 +391,10 @@ body{
     background-image: url(../img/CustomBC\ 2\ LOGO.jpg);
 }
 
+.download_form .customconstructionsandbox{
+    background-image: url(../img/CCS_LOGO.jpg);
+}
+
 .download_form .launcher{
     background-image: url(../img/CustomBCIco.png);
 }
